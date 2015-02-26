@@ -5,10 +5,12 @@ html {
 .header {
 	position:fixed;
 	top:0px;
+	right:10px;
 	height:30px;
 	width:100%;
 	text-align:right;
-	padding-right:20px;
+	padding-right:25px;
+	padding-top:10px;
 }
 .footer {
 	background-color:#F2F2F2;
@@ -19,6 +21,12 @@ html {
 	height:40px;
 	width:100%;
 	text-align:center;
+}
+.main {
+	clear:both;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
 }
 ul {
 	list-style:none;
@@ -39,6 +47,7 @@ li a {
 }
 li img {
 	vertical-align:middle;
+	margin-left:15px;
 }
 .footerLeft{
 	float:left;
@@ -47,4 +56,51 @@ li img {
 .footerRight{
 	float:right;
 	padding-right:15px;
+}
+.portrait {
+	border-radius:100%;
+}
+#logo {
+	width:100%;
+}
+#logo img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:200px;
+}
+.mainsearch {
+	width:540px;
+	display:block;
+  	margin-left:auto;
+  	margin-right:auto;
+}
+#container {
+	margin-top: 20px;
+	width:100%;
+}
+.btn {
+  padding: 6px 10px;
+  text-decoration: none;
+  border-radius: 2px;
+  font-weight: bold;
+  background-color: #F5F5F5;
+  border: 1px solid #ddd;
+  color: #666;
+  margin: 0 6px;
+}
+.buttons {
+	text-align:center;
+	margin-top:20px;
+}
+input {
+  display: block;
+  width: 100%;
+  height: 25px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  transition: border-color 0.2s ease-in;
+}
+input:focus {
+  border-color: #4285F4;
 }
